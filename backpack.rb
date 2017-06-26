@@ -34,10 +34,8 @@ class Backpack
     # Bring a packed lunch on all weekdays
     if day_of_week != 'saturday' && day_of_week != 'sunday'
       @items << 'packed lunch'
-    elsif false
-      @items << 'snacks'
     end
-  end
+end
 
   def packing_list
     output = []
